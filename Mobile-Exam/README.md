@@ -67,6 +67,8 @@ The configuration values:
     * Android - BottomSheetDialog
     * iOS - UIActionSheet
  
+### Nice to have
+* offline mode support
 
 ### Notes
 * Use proper OOP design
