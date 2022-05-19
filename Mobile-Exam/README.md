@@ -74,4 +74,4 @@ The configuration values:
 * When done, send the github link to our email
 
 
-# Good Luck
+# Good Luck!
