@@ -3,17 +3,17 @@
 ### In this exam, you are asked to write the "Button to Action" Android or iOS app.
 
 #### App's main screen
-* This app has 3 buttons
-   * Configuration1 button:
-      Tapping this button will fetch configuration from:
-      https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData.json
-   * Configuration2 button:
-      Tapping this button will fetch configuration from:
-      https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData2.json
-   * Action button:
-   * Tapping on this button performs one of the [actions](#actions) below
-      Each tap on the button will trigger a random action
+This app has 3 buttons
 
+* Configuration1 button:
+  * Tapping this button will fetch configuration from:
+  * https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData.json
+* Configuration2 button:
+  * Tapping this button will fetch configuration from:
+  * https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData2.json
+* Action button:
+  * Tapping on this button performs one of the [actions](#actions) below
+  * Each tap on the button will trigger a random action
 
 #### Pre Conditions
 * Start a new project on your machine
