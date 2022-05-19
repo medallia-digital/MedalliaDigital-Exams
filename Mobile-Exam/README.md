@@ -2,9 +2,17 @@
 ## Medallia Digital - Mobile exam
 ### In this exam, you are asked to write the "Button to Action" Android or iOS app.
 
-* This app has only 1 button
-* Tapping on this button performs one of the [actions](#actions) below
-* Each tap on the button will trigger a random action
+#### App's main screen
+* This app has 3 buttons
+   * Configuration1 button:
+      Tapping this button will fetch configuration from: 
+      https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData.json
+   * Configuration2 button:
+      Tapping this button will fetch configuration from: 
+      https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData2.json
+   * Action button:
+      Tapping on this button performs one of the [actions](#actions) below
+      Each tap on the button will trigger a random action
 
 
 #### Pre Conditions
@@ -25,12 +33,10 @@ The app should support the following actions:
 
 * Keep in mind that in the future, the app should be able to support actions that are more complex than the actions above.
 
-- When the user tap the button, one action should be chosen by the actions settigns.
+- When the user tap the action button, one action should be chosen by the actions settigns.
 
 ##### Configuration 
-
-Fetch the configuration from:
-https://raw.githubusercontent.com/medallia-digital/Exams-Data/master/mobileData.json
+The configuration contains configurationUUID and actions objects.
 
 The way an action is chosen is according to the configuration values retrieved from the configuration json above.
 The configuration values:
@@ -68,7 +74,9 @@ The configuration values:
     * iOS - UIActionSheet
  
 ### Nice to have
-* offline mode support
+* Offline mode support
+* Make use of the configurationUUID object to validate if the configuration has been changed before redownload it.
+   * the validation is by comparing the value of configurationUUID.uuid with the result of the uuid value in configurationUUID.url
 
 ### Notes
 * Use proper OOP design
